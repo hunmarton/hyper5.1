@@ -22,7 +22,7 @@ const { series, src, dest, parallel, watch } = require("gulp"),
 const paths = {
     baseSrc: "src/",                // source directory
     baseDist: "docs/",              // build directory
-    baseDistAssets: "dist/assets/", // build assets directory
+    baseDistAssets: "docs/assets/", // build assets directory
     baseSrcAssets: "src/assets/",   // source assets directory
 };
 
