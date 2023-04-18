@@ -22,7 +22,7 @@ const { series, src, dest, parallel, watch } = require("gulp"),
 const paths = {
     baseSrc: "src/",                // source directory
     baseDist: "docs/",              // build directory
-    baseDistAssets: "docs/assets/", // build assets directory
+    baseDistAssets: "dist/assets/", // build assets directory
     baseSrcAssets: "src/assets/",   // source assets directory
 };
 
@@ -52,7 +52,7 @@ const vendor = function () {
     const out = paths.baseDistAssets + "vendor/";
     return src(npmdist(), { base: "./node_modules" })
         .pipe(rename(function (path) {
-            path.dirname = path.dirname.replace(/\/docs/, '').replace(/\\docs/, '');
+            path.dirname = path.dirname.replace(/\/dist/, '').replace(/\\dist/, '');
         }))
         .pipe(dest(out));
 };
