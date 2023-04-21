@@ -6,9 +6,14 @@
   "scripts": {
     "buildcss": "cd scripts && gulp buildcss",
     "buildjs": "cd scripts && gulp buildjs",
-    "buildfull":"cd scripts && npm install && gulp build",
-    "buildfully":"cd scripts && gulp build"
+    "buildfull": "cd scripts && npm install && gulp build",
+    "buildfully": "cd scripts && gulp build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "britecharts": "^2.18.2",
+    "gulp-hub": "^4.2.0",
+    "yargs": "^17.7.1"
+  }
 }
