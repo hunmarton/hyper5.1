@@ -35,26 +35,9 @@ var demo = "";
 var demoPath = "";
 
 const input = async function (done) {
-    let message =
-        "--------------------------------------------------------------\n";
-    message += "Hyper - v5.1.0\n";
-    message += "Which demo version would you like to run?\n";
-    message +=
-        "----------------------------------------------------------------\n";
-    const res = await inquirer.prompt({
-        type: "list",
-        name: "demo",
-        message,
-        default: "Saas",
-        choices: [
-            "Saas",
-            "Modern",
-            "Creative",
-        ],
-        pageSize: "7",
-    });
-    demo = res.demo;
-    demoPath = demoPaths[demo];
+
+
+    demoPath = demoPaths['Saas'];
     done();
 };
 
