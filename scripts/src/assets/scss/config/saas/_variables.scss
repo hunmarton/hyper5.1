@@ -27,29 +27,29 @@ $body-dark-color:           #aab8c5;
 // ====== Light Mode Gray Color ======== //
 // scss-docs-start gray-color-variables 
 $white:    #fff;
-$gray-100: #f6f7fb;
-$gray-200: #eef2f7;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #a1a9b1;
-$gray-600: #8a969c;
-$gray-700: #6c757d;
-$gray-800: #343a40;
-$gray-900: #313a46;
+//$gray-100: #f6f7fb;
+//$gray-200: #eef2f7;
+//$gray-300: #dee2e6;
+//$gray-400: #ced4da;
+//$gray-500: #a1a9b1;
+//$gray-600: #8a969c;
+//$gray-700: #6c757d;
+//$gray-800: #343a40;
+//$gray-900: #313a46;
 $black:    #000;
 // scss-docs-end gray-color-variables
 
 // ====== Dark Mode Gray Color ======== //
 // scss-docs-start gray-dark-color-variables
-$gray-dark-100: #404954;
-$gray-dark-200: #37404a;
-$gray-dark-300: #464f5b;
-$gray-dark-400: #8391a2;
-$gray-dark-500: #aab8c5;
-$gray-dark-600: #ced4da;
-$gray-dark-700: #dee2e6;
-$gray-dark-800: #e3eaef;
-$gray-dark-900: #f1f1f1;
+//$gray-dark-100: #404954;
+//$gray-dark-200: #37404a;
+//$gray-dark-300: #464f5b;
+//$gray-dark-400: #8391a2;
+//$gray-dark-500: #aab8c5;
+//$gray-dark-600: #ced4da;
+//$gray-dark-700: #dee2e6;
+//$gray-dark-800: #e3eaef;
+//$gray-dark-900: #f1f1f1;
 // scss-docs-end gray-dark-color-variables
 
 // scss-docs-start gray-colors-map
@@ -85,16 +85,16 @@ $dropdown-bg-custom:                var(--#{$prefix}dropdown-bg-custom); //
 $input-bg-custom:                   var(--#{$prefix}input-bg-custom); //
 
 // scss-docs-start color-variables
-$blue:       #2c8ef8;
-$indigo:     #727cf5;
-$purple:     #6b5eae;
-$pink:       #ff679b;
-$red:        #fa5c7c;
-$orange:     #fd7e14;
-$yellow:     #ffc35a;
-$green:      #0acf97;
-$teal:       #02a8b5;
-$cyan:       #39afd1;
+//$blue:       #2c8ef8;
+//$indigo:     #727cf5;
+//$purple:     #6b5eae;
+//$pink:       #ff679b;
+//$red:        #fa5c7c;
+//$orange:     #fd7e14;
+//$yellow:     #ffc35a;
+//$green:      #0acf97;
+//$teal:       #02a8b5;
+//$cyan:       #39afd1;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -118,16 +118,16 @@ $colors: (
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
-//$theme-colors: (
-//  "primary":    $primary,
-//  "secondary":  $secondary,
-//  "success":    $success,
-//  "info":       $info,
-//  "warning":    $warning,
-//  "danger":     $danger,
-//  "light":      $light,
-//  "dark":       $dark
-//);
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
 // scss-docs-end theme-colors-map
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.

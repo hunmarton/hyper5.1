@@ -1,58 +1,56 @@
 
 /* Custom brand colors */
 
-// brand grays gray-color-variables
-$sabee-white:    #f9f9fa;
-$sabee-gray-100: #ebeef0;
-$sabee-gray-200: #dde1e5;
-$sabee-gray-300: #ced4d8;
-$sabee-gray-400: #bdc5cb;
-$sabee-gray-500: #aab4bd;
-$sabee-gray-600: #95a1ac;
-$sabee-gray-700: #7b8b98;
-$sabee-gray-800: #5f6e7a;
-$sabee-gray-900: #384047;
-$sabee-black:    #1c242a;
-// brand grays end gray-color-variables
+// ====== Light Mode Gray Color ======== //
+// brand gray-color-variables
+$gray-100: #f9f9fa;
+$gray-200: #ebeef0;
+$gray-300: #dde1e5;
+$gray-400: #ced4d8;
+$gray-500: #95a1ac;
+$gray-600: #7b8b98;
+$gray-700: #5f6e7a;
+$gray-800: #30373D;
+$gray-900: #384047;
+// brand end gray-color-variables
 
+// ====== Dark Mode Gray Color ======== //
+// brand gray-dark-color-variables
+$gray-dark-100: #424F5B;
+$gray-dark-200: $gray-900;
+$gray-dark-300: $gray-dark-100;
+$gray-dark-400: $gray-600;
+$gray-dark-500: #AAB4BD;
+$gray-dark-600: $gray-400;
+$gray-dark-700: $gray-300;
+$gray-dark-800: #e3eaef;
+$gray-dark-900: $gray-200;
+// brand end gray-dark-color-variables
+
+// ====== Color variants ======== //
 // brand color-variables
-$sabee-blue:            #008eff;
-$sabee-blue-darker:     #0079d9;
-$sabee-red:             #ff3c49;
-$sabee-red-darker:      #da000f;
-$sabee-yellow:          #f5e400;
-$sabee-yellow-darker:   #d5c700;
-$sabee-green:           #00b850;
-$sabee-green-darker:    #009e45;
-$sabee-cyan:            #0cbfe8;
-$sabee-cyan-darker:     #008fd3;
+$blue:       #008EFF;
+$indigo:     #727BFF;
+$purple:     #A866FF;
+$pink:       #FF69BE;
+$red:        #FF737C;
+$orange:     #FF9A4E;
+$yellow:     #FFD10D;
+$green:      #00CE5A;
+$teal:       #00C8BB;
+$cyan:       #86CBFF;
 // brand end color-variables
 
 
 // scss-docs-start theme-color-variables
 
-$primary:       $sabee-blue;
-$secondary:     $sabee-gray-700;
-$success:       $sabee-green;
-$info:          $sabee-cyan;
-$warning:       $sabee-yellow;
-$danger:        $sabee-red;
-$light:         $sabee-gray-100;
-$dark:          $sabee-gray-900;
+$primary:       $blue;
+$secondary:     $gray-700;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-200;
+$dark:          $gray-900;
 
 // scss-docs-end theme-color-variables
-
-// scss-docs-start theme-colors-map
-
-$theme-colors: (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-);
-
-// scss-docs-end theme-colors-map

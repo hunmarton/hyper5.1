@@ -18,7 +18,7 @@ const { series, src, dest, parallel, watch } = require("gulp"),
 
 
 const paths = {
-    baseSrc: "../src/",                // source directory
+    baseSrc: "src/",                // source directory
     baseDist: "../docs/",              // build directory
     baseDistAssets: "../docs/assets/", // build assets directory
     baseSrcAssets: "src/assets/",   // source assets directory
@@ -43,7 +43,8 @@ const input = async function (done) {
 
 
 const clean = function (done) {
-    del.sync(paths.baseDist, done());
+    del.sync(paths.baseDist, {force: true});
+    done();
 };
 
 const vendor = function () {
